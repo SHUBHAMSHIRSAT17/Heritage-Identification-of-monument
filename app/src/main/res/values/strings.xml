@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Heritage Monument</string>
+
+    <!--    continent_activity-->
+    <string name="welcome">Welcome,</string>
+    <string name="identify_monument">Identify Monument</string>
+
+    <string name="asia">Asia</string>
+    <string name="asia_text">Asia, the world\'s largest and \nmost diverse continent.</string>
+    <string name="africa">Africa</string>
+    <string name="africa_text">Africa is the world\'s second \nlargest continent</string>
+    <string name="europe">Europe</string>
+    <string name="europe_text">Europe is the second smallest \nof the world\'s continents</string>
+    <string name="north_america">North America</string>
+    <string name="north_america_text">North America is the third largest \nof the world\'s continents.</string>
+    <string name="south_america">South America</string>
+    <string name="south_america_text">South America is the fourth \nlargest of the world\'s continents.</string>
+    <string name="australia">Australia</string>
+    <string name="australia_text">Australia is the smallest of all \nthe continent in the world.</string>
+
+    <string name="choose">Choose Language</string>
+
+    <!--    main_activity-->
+    <string name="identify_monuments_of">Identify Monuments of</string>
+    <string name="take_a_picture">Take a picture</string>
+
+    <!--    details_activity-->
+    <string name="predictions">Predictions</string>
+    <string name="prediction_1">Prediction 1</string>
+    <string name="prediction_2">Prediction 2</string>
+    <string name="prediction_3">Prediction 3</string>
+    <string name="confidence">Confidence</string>
+    <string name="description">Description</string>
+    <string name="read_more">Read more...</string>
+
+
+</resources>

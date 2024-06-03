@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">हेरिटेज मोन्यूमेंट</string>
+
+    <!--    continent_activity-->
+    <string name="welcome">स्वागत हे,</string>
+    <string name="identify_monument">स्मारक की पहचान करें</string>
+
+    <string name="asia">एशिया</string>
+    <string name="asia_text">एशिया, दुनिया का सबसे बड़ा और \nसबसे विविध महाद्वीप</string>
+    <string name="africa">अफ्रीका</string>
+    <string name="africa_text">अफ्रीका विश्व का दूसरा \nबड़ा महाद्वीप है</string>
+    <string name="europe">यूरोप</string>
+    <string name="europe_text">यूरोप दुनिया का दूसरा \nसबसे छोटा महाद्वीप है</string>
+    <string name="north_america">उत्तरी अमेरिका</string>
+    <string name="north_america_text">उत्तरी अमेरिका विश्व के महाद्वीपों में \nतीसरा सबसे बड़ा है।</string>
+    <string name="south_america">दक्षिण अमेरिका</string>
+    <string name="south_america_text">दक्षिण अमेरिका विश्व के महाद्वीपों में \nचौथा सबसे बड़ा है।</string>
+    <string name="australia">ऑस्ट्रेलिया</string>
+    <string name="australia_text">ऑस्ट्रेलिया दुनिया के सभी \nमहाद्वीपों में सबसे छोटा है।</string>
+
+    <string name="choose">भाषा चुनें</string>
+
+    <!--    main_activity-->
+    <string name="identify_monuments_of">स्मारकों की पहचान करें</string>
+    <string name="take_a_picture">एक तस्वीर लो</string>
+
+    <!--    details_activity-->
+    <string name="predictions">प्रिडिक्शन्स</string>
+    <string name="prediction_1">प्रेडिक्शन १</string>
+    <string name="prediction_2">प्रेडिक्शन २</string>
+    <string name="prediction_3">प्रेडिक्शन ३</string>
+    <string name="confidence">कॉन्फिडेंस</string>
+    <string name="description">वितरण</string>
+    <string name="read_more">अधिक पढ़ें...</string>
+
+</resources>

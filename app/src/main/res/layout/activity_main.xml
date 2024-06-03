@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:id="@+id/helloText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/identify_monuments_of"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/continentNameMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/helloText"
+            android:text="Asia"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/continentImgMain"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/icon" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/take_picture"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/camera"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/take_a_picture"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="5dp"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</RelativeLayout>

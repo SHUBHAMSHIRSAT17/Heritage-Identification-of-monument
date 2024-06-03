@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "338935493690",
+    "project_id": "heritage-monument",
+    "storage_bucket": "heritage-monument.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338935493690:android:c2366874057761d30db103",
+        "android_client_info": {
+          "package_name": "com.example.monumentdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338935493690-229gli3odp9aj9nafn559holtdf1hkeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqmMtrsvE-H0_vpxYeE53DZv1VsBs3Rb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338935493690-229gli3odp9aj9nafn559holtdf1hkeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338935493690:android:441236dbf2ff601f0db103",
+        "android_client_info": {
+          "package_name": "com.rnfirebaselandmarkrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338935493690-229gli3odp9aj9nafn559holtdf1hkeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqmMtrsvE-H0_vpxYeE53DZv1VsBs3Rb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338935493690-229gli3odp9aj9nafn559holtdf1hkeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

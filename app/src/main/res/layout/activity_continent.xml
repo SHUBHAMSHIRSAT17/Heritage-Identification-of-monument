@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/welcome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/welcome"
+                        android:textSize="17sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/identify_monument"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image_home"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:scaleType="centerCrop"
+                    android:clickable="true"
+                    android:src="@drawable/icon"
+                    android:focusable="true" />
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/asia_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="7dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/asia"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true">
+
+                        <TextView
+                            android:id="@+id/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/asia"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/t3"
+                            android:text="@string/asia_text"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/asia" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/africa_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="7dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/africa"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                        <TextView
+                            android:id="@+id/t2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:text="@string/africa"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/africa_text"
+                            android:textColor="@color/white"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerVertical="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/africa" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/europe_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:elevation="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/europe"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true">
+
+                        <TextView
+                            android:id="@+id/t1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/europe"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/t1sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/t1"
+                            android:text="@string/europe_text"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/europe" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/north_america_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:elevation="7dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/north_america"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true">
+
+                        <TextView
+                            android:id="@+id/t4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/north_america"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/t4sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/north_america_text"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerVertical="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/northamerica" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/south_america_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:elevation="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/south_america"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true">
+
+                        <TextView
+                            android:id="@+id/t5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/south_america"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/t5sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/t5"
+                            android:text="@string/south_america_text"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/southamerica" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/australia_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_margin="20dp"
+                android:elevation="7dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/antarctica"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true">
+
+                        <TextView
+                            android:id="@+id/t6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/australia"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/t6sub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/australia_text"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerVertical="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/australia" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
